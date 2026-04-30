@@ -532,9 +532,10 @@ git pull
 
 Editá la misma función para que quede así:
 
-```c
+´´´c
 int esPar(int n) {
     return (n % 2) == 0; /* version main */
+
 }
 ```
 
