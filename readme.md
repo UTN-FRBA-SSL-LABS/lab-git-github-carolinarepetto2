@@ -532,10 +532,9 @@ git pull
 
 Editá la misma función para que quede así:
 
-´´´c
+```c
 int esPar(int n) {
     return (n % 2) == 0; /* version main */
-
 }
 ```
 
@@ -569,11 +568,7 @@ Abrí `operaciones.c`. Vas a ver algo así:
 
 ```c
 int esPar(int n) {
-<<<<<<< HEAD
     return (n % 2) == 0; /* version main */
-=======
-    return (n & 1) == 0;
->>>>>>> origin/feature/conflicto-demo
 }
 ```
 

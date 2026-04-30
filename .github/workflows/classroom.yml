@@ -3,9 +3,11 @@ name: GitHub Classroom Workflow
 on:
   push:
     branches: [ "**" ]
+
     paths:
       - "operaciones.c"
       - "readme.md"
+
 
 permissions:
   checks: write

@@ -10,10 +10,12 @@ main.o: main.c operaciones.h
 	$(CC) $(CFLAGS) -c main.c
 
 operaciones.o: operaciones.c operaciones.h
-	$(CC) $(CFLAGS) -c operaciones.c
+	$(CC) $(CFLAGS) -c operaciones.c	
 
 clean:
-	rm -f *.o calculadora
+	rm -f *.o calculadora		
 
 test:
-	@bash test_local.sh
+	@bash test_local.sh	
+
+
