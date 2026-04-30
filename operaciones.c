@@ -2,37 +2,23 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-<<<<<<< HEAD
 int sumar(const int a, const int b) {
-=======
-int sumar(int a, int b) {
->>>>>>> origin/feature/conflicto-demo
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-<<<<<<< HEAD
 int restar(const int a, const int b) {
-=======
-int restar(int a, int b) {
->>>>>>> origin/feature/conflicto-demo
     return a - b;
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 
-<<<<<<< HEAD
-/* la funcion multiplicar recibe dos numeros enteros y devuelve el resultado de multiplicarlos.
+/* la funcion multiplicar recibe dos numeros enteros y devuelve el resultado de multiplicarlos. */
 
 int multiplicar(int a, int b) {
     return a * b;
 
-=======
-int multiplicar(int a, int b) {
-    (void)a; (void)b;
-    return 0; /* TODO: implementar */
->>>>>>> origin/feature/conflicto-demo
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
