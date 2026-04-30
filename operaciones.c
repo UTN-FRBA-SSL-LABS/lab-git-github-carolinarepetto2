@@ -15,7 +15,7 @@ int restar(const int a, const int b) {
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
 //la funcion multiplicar recibe dos numeros enteros y devuelve el resultado de multiplicarlos.
 
-int multiplicar(int a, int b) {
+int multiplicar(const int a, const int b) {
     return a * b;
 }         //Calcula el producto entre 2 enteros usando el operador *
 
